@@ -1,0 +1,21 @@
+{
+  "name": "babel-plugin-react-transform-jsx",
+  "version": "0.0.1",
+  "description": "simple implementation of turning jsx to react function call",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhangYe-d",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/plugin-syntax-jsx": "^7.25.9"
+  },
+  "dependencies": {
+    "@babel/core": "^7.26.0"
+  }
+}
