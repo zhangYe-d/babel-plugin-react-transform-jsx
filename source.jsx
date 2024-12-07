@@ -1,10 +1,9 @@
 const string = "hello";
-const Foo = () => {
-  return 1;
-};
 
 const App = () => {
-  return <h1 className="app">world{<Foo />}</h1>;
+  return (
+    <h1 className="app" style={{ color: "lightblue" }}>
+      {string}worl d
+    </h1>
+  );
 };
-
-<App />;
