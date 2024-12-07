@@ -1,3 +1,6 @@
+import * as React from "./node_modules/react/index.js";
+import createRoot from "./node_modules/react-dom/index.js";
+
 const string = "hello";
 
 const App = () => {
@@ -7,3 +10,5 @@ const App = () => {
     </h1>
   );
 };
+
+createRoot(document.querySelector("#id")).render(<App />);
